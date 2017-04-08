@@ -1,0 +1,122 @@
+Golang  x PhantomJSの可能性
+
+2017/4/8
+
+
+浜野義丈
+
+
+https://github.com/yoshitake-hamano/golang_phantomjs
+
+
+* 
+
+Webブラウザを毎日使ってますか？
+
+* 
+
+Webブラウザを毎日使ってますか？
+勤怠入力・Redmine・JIRA・etc...
+
+* 
+
+Webブラウザを毎日使ってますか？
+勤怠入力・Redmine・JIRA・etc...
+面倒な作業ですよね？
+
+* 
+
+Webブラウザを毎日使ってますか？
+勤怠入力・Redmine・JIRA・etc...
+面倒な作業ですよね？
+自動化したくなりました
+
+* 今まで
+
+* 
+
+.image images/ruby.png
+
+* 
+
+.image images/ruby_firefox.png
+
+* 
+
+.image images/ruby_firefox_selenium.png
+
+* 
+
+.image images/ruby_firefox_selenium_transparent.png
+
+ Selenium automates browsers. That's it!
+Seleniumの公式サイトから抜粋
+
+* 
+
+.image images/ruby_firefox_selenium.png
+
+- バージョンを揃えるのが面倒
+
+* 
+
+.image images/ruby_firefox_selenium.png
+
+- バージョンを揃えるのが面倒
+- ファイルの配布が面倒
+
+* これから
+
+* 
+
+.image images/golang.png
+
+* 
+
+.image images/golang_phantomjs.png
+
+* 
+
+.image images/golang_phantomjs_transparent.png
+
+ PhantomJS is a headless WebKit scriptable with a JavaScript API.
+ It has fast and native support for various web standards:
+ DOM handling, CSS selector, JSON, Canvas, and SVG.
+PhantomJSの公式サイトから抜粋
+
+* 
+
+.image images/golang_phantomjs.png
+
+- バージョンを揃えるのが楽
+
+* 
+
+.image images/golang_phantomjs.png
+
+- バージョンを揃えるのが楽
+- ファイル配布が楽
+
+* 準備
+
+1. PhantomJSをダウンロード
+http://phantomjs.org/
+2. PhantomJSのバイナリにパスを通す
+3. agoutiを取得
+
+ $ go get github.com/sclevine/agouti
+
+* サンプル：Amazonでgolang検索
+
+.code amazon.go /^import \(/,/^\)/
+
+* サンプル：Amazonでgolang検索
+
+.code amazon.go /START OMIT/,/END OMIT/
+
+* 
+
+Go言語の使い道を
+　　みんなでシェアしましょう！
+
+.image images/yeah.png
